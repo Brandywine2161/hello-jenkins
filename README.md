@@ -1,2 +1,2 @@
 # hello-jenkins
-My super sample app to test out Jenkins.
+My super SIMPLE sample app to test out Jenkins. node.js w/ test script
