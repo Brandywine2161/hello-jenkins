@@ -1,4 +1,4 @@
-kivar request = require('supertest');
+var request = require('supertest');
 var app = require('../app.js');
  
 describe('GET /', function() {
