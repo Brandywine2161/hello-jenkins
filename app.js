@@ -1,10 +1,8 @@
-var express = require('express');
+var request = require('supertest');
+var app = require('../app.js');
  
-var app = express(); 
-app.get('/', function (req, res) {
-  res.send('hello jenkins');
+describe('GET /', function() {
+  it('respond with hello world', function(done) {
+    request(app).get('/').expect('hello world', done);
+  });
 });
- 
-app.listen(process.env.PORT || 80);
- 
-module.exports = app;
