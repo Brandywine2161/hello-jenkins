@@ -11,6 +11,6 @@
     "supertest": "0.13.0"
   }
   "scripts": {
-  "test": "node test/test.sh"
+  "test": "node test/test.js"
 }
 }
